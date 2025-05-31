@@ -3,9 +3,9 @@
     Time Complexity: 
     Space Complexity: 
     
-    Problem Overview: Find the minimum of move to the cell n * n in a board
+    Problem Overview:
 
-    
+    Approach:
 */
 /* For normal CPP
 #include<bits/stdc++.h>
@@ -21,5 +21,7 @@ int main()
 
 
 /* For Leetcode
+#include<bits/stdc++.h>
+using namespace std;
 
 */

@@ -5,6 +5,7 @@
     
     Problem Overview: Find the minimum of move to the cell n * n in a board
 
+    Approach:
     - Call v is the number of rows and columns in the board
     - For this problem, we can use a BFS approach to find all the shortest paths from the start to the end.
     - We will use a queue to store the current position and then we iterate through all the possible moves (For this problem is from 1 to 6)
