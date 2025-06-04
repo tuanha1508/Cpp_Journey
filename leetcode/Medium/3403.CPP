@@ -1,4 +1,4 @@
-//340. Find the Lexicographically Largest String From the Box I
+//3403. Find the Lexicographically Largest String From the Box I
 /*
     Time Complexity: O(n^2)
     Space Complexity: O(n)
