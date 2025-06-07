@@ -10,7 +10,11 @@
     - Return the lexicographically smallest string possible after all removals.
 
     Approach: Stack, String
-    - 
+    - We use a stack to keep track of the indices of characters in the string.
+    - For each character in the string:
+        - If it is not a star, we push its index onto the stack.
+        - If it is a star, we pop the top of the stack (which gives us the index of the smallest character) and mark that position as a star.
+    - Finally, we construct the result string by skipping all the stars.
 */
 #include<bits/stdc++.h>
 using namespace std;
