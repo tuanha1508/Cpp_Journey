@@ -1,11 +1,16 @@
-//Problem_Number
+//1029B. Shrink
 /*
-    Time Complexity: 
-    Space Complexity: 
+    Time Complexity: O(n)
+    Space Complexity: O(1)
     
-    Problem Overview:
+    Problem Overview: 
+    - Given n, we can take any permutation n integers :
+        if a[i] > a[i + 1] and a[i] > a[i - 1] then we can remove a[i] and get one score
+    - Return the maximum score we can get with the permutation
 
-    Approach:
+    Approach: Math, Greedy
+    - We can always remove any other a[i] > 2
+    - So just keep the 1 in position 1 and 2 in last position, then the middle is the array decreasing from n to 3
 */
 #include<bits/stdc++.h>
 using namespace std;
