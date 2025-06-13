@@ -3,10 +3,16 @@
     Time Complexity: O(nlogn)
     Space Complexity: O(1)
     
-    Problem Overview:
+    Problem Overview: Minimize the maximum difference between p pairs of numbers in an array.
 
-    Approach:
-*/
+    Approach: Binary Search
+    - Aware that two adjacent numbers after sorting result in the smaallest difference --> Sort the array.
+    - Use the binary search with each mid value, compare and count how many pairs have a difference less than or equal to mid -> meaning that the maximum difference is mid.
+    - If the number of pairs is greater than or equal to p, then we can try to minimize the maximum difference further by adjusting the right boundary.
+    - If the number of pairs is less than p, we need to increase the minimum difference by adjusting the left boundary.
+    - The process continues until the left boundary meets the right boundary, which will be the minimum maximum difference possible.
+    - Return the left boundary as the result.
+*/  
 
 #include<bits/stdc++.h>
 using namespace std;
