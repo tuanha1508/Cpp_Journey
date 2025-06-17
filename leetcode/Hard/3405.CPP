@@ -6,7 +6,7 @@
     Problem Overview: Given n, m, and k :
     - find number of arrays of length n with elements from 1 to m that :
       + have exactly k pairs of adjacent elements that are equal.
-    Approach:
+    Approach: Approach: Math, Combinatorics, Inverse Modulo
 */
 #include<bits/stdc++.h>
 using namespace std;
